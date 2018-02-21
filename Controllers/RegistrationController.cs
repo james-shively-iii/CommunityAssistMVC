@@ -36,7 +36,7 @@ namespace CommunityAssistMVC2018.Controllers
                 reg.LastName,
                 reg.FirstName, 
                 reg.Email,
-                reg.PlainPassword, 
+                reg.Password, 
                 reg.ApartmentNumber, 
                 reg.Street, 
                 reg.City, 

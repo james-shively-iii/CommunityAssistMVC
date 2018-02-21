@@ -36,7 +36,6 @@ C:\Users\ambi\source\repos\CommunityAssistMVC2018\CommunityAssistMVC2018\bin\Mic
 C:\Users\ambi\source\repos\CommunityAssistMVC2018\CommunityAssistMVC2018\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\ambi\source\repos\CommunityAssistMVC2018\CommunityAssistMVC2018\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\ambi\source\repos\CommunityAssistMVC2018\CommunityAssistMVC2018\bin\Microsoft.AI.Web.xml
-C:\Users\ambi\source\repos\CommunityAssistMVC2018\CommunityAssistMVC2018\obj\Debug\CommunityAssistMVC2018.csprojResolveAssemblyReference.cache
 C:\Users\ambi\source\repos\CommunityAssistMVC2018\CommunityAssistMVC2018\obj\Debug\CommunityAssistMVC2018.csproj.CoreCompileInputs.cache
 C:\Users\ambi\source\repos\CommunityAssistMVC2018\CommunityAssistMVC2018\obj\Debug\CommunityAssistMVC2018.dll
 C:\Users\ambi\source\repos\CommunityAssistMVC2018\CommunityAssistMVC2018\obj\Debug\CommunityAssistMVC2018.pdb
@@ -44,3 +43,4 @@ C:\Users\ambi\source\repos\CommunityAssistMVC2018\CommunityAssistMVC2018\bin\Ent
 C:\Users\ambi\source\repos\CommunityAssistMVC2018\CommunityAssistMVC2018\bin\EntityFramework.SqlServer.dll
 C:\Users\ambi\source\repos\CommunityAssistMVC2018\CommunityAssistMVC2018\bin\EntityFramework.xml
 C:\Users\ambi\source\repos\CommunityAssistMVC2018\CommunityAssistMVC2018\bin\EntityFramework.SqlServer.xml
+C:\Users\ambi\source\repos\CommunityAssistMVC2018\CommunityAssistMVC2018\obj\Debug\CommunityAssistMVC2018.csprojResolveAssemblyReference.cache

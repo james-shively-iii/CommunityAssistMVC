@@ -151,8 +151,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BusinessRulesController.cs" />
+    <Compile Include="Controllers\DonationController.cs" />
     <Compile Include="Controllers\GrantTypesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\RegistrationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -175,6 +177,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CommunityAssistModel1.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Donate.cs" />
     <Compile Include="Models\Donation.cs">
       <DependentUpon>CommunityAssistModel1.tt</DependentUpon>
     </Compile>
@@ -196,9 +199,11 @@
     <Compile Include="Models\GrantType.cs">
       <DependentUpon>CommunityAssistModel1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\LoginClass.cs" />
     <Compile Include="Models\LoginHistory.cs">
       <DependentUpon>CommunityAssistModel1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Message.cs" />
     <Compile Include="Models\NewPerson.cs" />
     <Compile Include="Models\Person.cs">
       <DependentUpon>CommunityAssistModel1.tt</DependentUpon>
@@ -277,6 +282,10 @@
     <Content Include="Views\GrantTypes\Index.cshtml" />
     <Content Include="Views\Registration\Index.cshtml" />
     <Content Include="Views\Registration\Register.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Login\Result.cshtml" />
+    <Content Include="Views\Donation\Index.cshtml" />
+    <Content Include="Views\Donation\Result.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
