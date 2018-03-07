@@ -152,6 +152,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BusinessRulesController.cs" />
     <Compile Include="Controllers\DonationController.cs" />
+    <Compile Include="Controllers\GrantRequestController.cs" />
     <Compile Include="Controllers\GrantTypesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
@@ -196,6 +197,7 @@
     <Compile Include="Models\GrantApplicationStatu.cs">
       <DependentUpon>CommunityAssistModel1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\GrantRequest.cs" />
     <Compile Include="Models\GrantType.cs">
       <DependentUpon>CommunityAssistModel1.tt</DependentUpon>
     </Compile>
@@ -286,6 +288,8 @@
     <Content Include="Views\Login\Result.cshtml" />
     <Content Include="Views\Donation\Index.cshtml" />
     <Content Include="Views\Donation\Result.cshtml" />
+    <Content Include="Views\GrantRequest\Index.cshtml" />
+    <Content Include="Views\GrantRequest\Result.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

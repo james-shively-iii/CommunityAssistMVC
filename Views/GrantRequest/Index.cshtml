@@ -1,0 +1,55 @@
+﻿@model CommunityAssistMVC2018.Models.GrantRequest
+@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>Request for a Grant</h4>
+    <hr />
+    <!--User input form for grant type-->
+    <div class="form-group">
+        @Html.LabelFor(model => model.GrantTypeKey, "GrantTypeKey", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("GrantType", null, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.GrantTypeKey, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <!--User input form for reason-->
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(model => model.ApplicationReason, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.ApplicationReason, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.ApplicationReason, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <!--User input form for amount-->
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(model => model.ApplicationRequestAmount, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.ApplicationRequestAmount, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.ApplicationRequestAmount, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <!--User submit-->
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Login" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

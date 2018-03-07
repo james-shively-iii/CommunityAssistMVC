@@ -9,7 +9,7 @@
         <EntityTypeShape EntityType="CommunityAssist2017Model.Donation" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
         <EntityTypeShape EntityType="CommunityAssist2017Model.Employee" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
         <EntityTypeShape EntityType="CommunityAssist2017Model.EmployeePosition" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="CommunityAssist2017Model.GrantApplication" Width="1.5" PointX="6" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CommunityAssist2017Model.GrantApplication" Width="1.875" PointX="7.5" PointY="14" IsExpanded="true" />
         <EntityTypeShape EntityType="CommunityAssist2017Model.GrantApplicationReview" Width="1.5" PointX="8.25" PointY="10.125" IsExpanded="true" />
         <EntityTypeShape EntityType="CommunityAssist2017Model.GrantApplicationStatu" Width="1.5" PointX="3.75" PointY="11.5" IsExpanded="true" />
         <EntityTypeShape EntityType="CommunityAssist2017Model.GrantType" Width="2.5" PointX="5.625" PointY="20.5" IsExpanded="true" />
