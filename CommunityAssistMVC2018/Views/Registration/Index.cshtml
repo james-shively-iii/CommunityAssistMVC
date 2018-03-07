@@ -1,0 +1,25 @@
+﻿@model IEnumerable<CommunityAssistMVC2018.Models.Person>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h1>Candidates for Grants</h1>
+<table class="table">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.PersonFirstName)</th>
+        <th>@Html.DisplayNameFor(model => model.PersonLastName)</th>
+        <th>@Html.DisplayNameFor(model => model.PersonEmail)</th>
+        <th>@Html.DisplayNameFor(model => model.PersonDateAdded)</th>
+    </tr>
+    @foreach(var i in Model)
+    {
+    <tr>
+        <td>@Html.DisplayFor(model => i.PersonFirstName)</td>
+        <td>@Html.DisplayFor(model => i.PersonLastName)</td>
+        <td>@Html.DisplayFor(model => i.PersonEmail)</td>
+        <td>@Html.DisplayFor(model => i.PersonDateAdded)</td>
+    </tr>
+    }
+</table>
+
+<h4>@Html.ActionLink("Register Now To See If You Are Eligible", "Register", "Registration")</h4>
